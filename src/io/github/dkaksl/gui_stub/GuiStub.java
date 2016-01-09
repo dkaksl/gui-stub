@@ -20,6 +20,14 @@ import javax.swing.JFrame;
 @SuppressWarnings("serial")
 public class GuiStub extends JFrame implements ActionListener {
 
+	private static void generateMainWindow() {
+
+	}
+
+	public void actionPerformed(ActionEvent e) {
+		// if (e.equals(objectA)) { // do stuff }
+	}
+	
 	/**
 	 * @param args
 	 */
@@ -29,13 +37,5 @@ public class GuiStub extends JFrame implements ActionListener {
 				generateMainWindow();
 			}
 		});
-	}
-
-	public void actionPerformed(ActionEvent e) {
-
-	}
-
-	private static void generateMainWindow() {
-
 	}
 }
